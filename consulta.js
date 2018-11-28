@@ -32,8 +32,6 @@ module.exports = function (callback,cep) {
 
   function removeCaracteresEspeciaisDoCep(cep) {
 
-     console.log(cep)
-     console.log(cep.replace(/-|_/gi, ''))
     return cep.replace(/-|_/gi, '')
 }
 
