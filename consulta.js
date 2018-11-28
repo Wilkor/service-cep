@@ -21,7 +21,7 @@ module.exports = function (callback,cep) {
 
         }).catch((erro) => {
 
-          reject({ status: '500', message: 'Erro no request API', err: body.error })
+          reject({ status: '500', message: 'Error no request API', err: body.error })
           console.log(erro)
         })
       }
